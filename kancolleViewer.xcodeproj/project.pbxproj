@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33DA5CFB2133D10000F895D4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33DA5CFA2133D10000F895D4 /* AppDelegate.m */; };
+		33DA5CFE2133D10000F895D4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33DA5CFD2133D10000F895D4 /* ViewController.m */; };
+		33DA5D012133D10000F895D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33DA5CFF2133D10000F895D4 /* Main.storyboard */; };
+		33DA5D032133D10200F895D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33DA5D022133D10200F895D4 /* Assets.xcassets */; };
+		33DA5D062133D10200F895D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33DA5D042133D10200F895D4 /* LaunchScreen.storyboard */; };
+		33DA5D092133D10200F895D4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33DA5D082133D10200F895D4 /* main.m */; };
+		33DA5D132133D10300F895D4 /* kancolleViewerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33DA5D122133D10300F895D4 /* kancolleViewerTests.m */; };
+		33DA5D1E2133D10300F895D4 /* kancolleViewerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33DA5D1D2133D10300F895D4 /* kancolleViewerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		33DA5D0F2133D10300F895D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33DA5CEE2133D10000F895D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33DA5CF52133D10000F895D4;
+			remoteInfo = kancolleViewer;
+		};
+		33DA5D1A2133D10300F895D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33DA5CEE2133D10000F895D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33DA5CF52133D10000F895D4;
+			remoteInfo = kancolleViewer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		33DA5CF62133D10000F895D4 /* kancolleViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kancolleViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		33DA5CF92133D10000F895D4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		33DA5CFA2133D10000F895D4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		33DA5CFC2133D10000F895D4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		33DA5CFD2133D10000F895D4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		33DA5D002133D10000F895D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		33DA5D022133D10200F895D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		33DA5D052133D10200F895D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		33DA5D072133D10200F895D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33DA5D082133D10200F895D4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		33DA5D0E2133D10300F895D4 /* kancolleViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kancolleViewerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		33DA5D122133D10300F895D4 /* kancolleViewerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kancolleViewerTests.m; sourceTree = "<group>"; };
+		33DA5D142133D10300F895D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33DA5D192133D10300F895D4 /* kancolleViewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kancolleViewerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		33DA5D1D2133D10300F895D4 /* kancolleViewerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kancolleViewerUITests.m; sourceTree = "<group>"; };
+		33DA5D1F2133D10300F895D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33DA5CF32133D10000F895D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33DA5D0B2133D10300F895D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33DA5D162133D10300F895D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33DA5CED2133D10000F895D4 = {
+			isa = PBXGroup;
+			children = (
+				33DA5CF82133D10000F895D4 /* kancolleViewer */,
+				33DA5D112133D10300F895D4 /* kancolleViewerTests */,
+				33DA5D1C2133D10300F895D4 /* kancolleViewerUITests */,
+				33DA5CF72133D10000F895D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		33DA5CF72133D10000F895D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33DA5CF62133D10000F895D4 /* kancolleViewer.app */,
+				33DA5D0E2133D10300F895D4 /* kancolleViewerTests.xctest */,
+				33DA5D192133D10300F895D4 /* kancolleViewerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33DA5CF82133D10000F895D4 /* kancolleViewer */ = {
+			isa = PBXGroup;
+			children = (
+				33DA5CF92133D10000F895D4 /* AppDelegate.h */,
+				33DA5CFA2133D10000F895D4 /* AppDelegate.m */,
+				33DA5CFC2133D10000F895D4 /* ViewController.h */,
+				33DA5CFD2133D10000F895D4 /* ViewController.m */,
+				33DA5CFF2133D10000F895D4 /* Main.storyboard */,
+				33DA5D022133D10200F895D4 /* Assets.xcassets */,
+				33DA5D042133D10200F895D4 /* LaunchScreen.storyboard */,
+				33DA5D072133D10200F895D4 /* Info.plist */,
+				33DA5D082133D10200F895D4 /* main.m */,
+			);
+			path = kancolleViewer;
+			sourceTree = "<group>";
+		};
+		33DA5D112133D10300F895D4 /* kancolleViewerTests */ = {
+			isa = PBXGroup;
+			children = (
+				33DA5D122133D10300F895D4 /* kancolleViewerTests.m */,
+				33DA5D142133D10300F895D4 /* Info.plist */,
+			);
+			path = kancolleViewerTests;
+			sourceTree = "<group>";
+		};
+		33DA5D1C2133D10300F895D4 /* kancolleViewerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				33DA5D1D2133D10300F895D4 /* kancolleViewerUITests.m */,
+				33DA5D1F2133D10300F895D4 /* Info.plist */,
+			);
+			path = kancolleViewerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33DA5CF52133D10000F895D4 /* kancolleViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33DA5D222133D10300F895D4 /* Build configuration list for PBXNativeTarget "kancolleViewer" */;
+			buildPhases = (
+				33DA5CF22133D10000F895D4 /* Sources */,
+				33DA5CF32133D10000F895D4 /* Frameworks */,
+				33DA5CF42133D10000F895D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kancolleViewer;
+			productName = kancolleViewer;
+			productReference = 33DA5CF62133D10000F895D4 /* kancolleViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		33DA5D0D2133D10300F895D4 /* kancolleViewerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33DA5D252133D10300F895D4 /* Build configuration list for PBXNativeTarget "kancolleViewerTests" */;
+			buildPhases = (
+				33DA5D0A2133D10300F895D4 /* Sources */,
+				33DA5D0B2133D10300F895D4 /* Frameworks */,
+				33DA5D0C2133D10300F895D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33DA5D102133D10300F895D4 /* PBXTargetDependency */,
+			);
+			name = kancolleViewerTests;
+			productName = kancolleViewerTests;
+			productReference = 33DA5D0E2133D10300F895D4 /* kancolleViewerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		33DA5D182133D10300F895D4 /* kancolleViewerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33DA5D282133D10300F895D4 /* Build configuration list for PBXNativeTarget "kancolleViewerUITests" */;
+			buildPhases = (
+				33DA5D152133D10300F895D4 /* Sources */,
+				33DA5D162133D10300F895D4 /* Frameworks */,
+				33DA5D172133D10300F895D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33DA5D1B2133D10300F895D4 /* PBXTargetDependency */,
+			);
+			name = kancolleViewerUITests;
+			productName = kancolleViewerUITests;
+			productReference = 33DA5D192133D10300F895D4 /* kancolleViewerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33DA5CEE2133D10000F895D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = yourForum;
+				TargetAttributes = {
+					33DA5CF52133D10000F895D4 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					33DA5D0D2133D10300F895D4 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 33DA5CF52133D10000F895D4;
+					};
+					33DA5D182133D10300F895D4 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 33DA5CF52133D10000F895D4;
+					};
+				};
+			};
+			buildConfigurationList = 33DA5CF12133D10000F895D4 /* Build configuration list for PBXProject "kancolleViewer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 33DA5CED2133D10000F895D4;
+			productRefGroup = 33DA5CF72133D10000F895D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33DA5CF52133D10000F895D4 /* kancolleViewer */,
+				33DA5D0D2133D10300F895D4 /* kancolleViewerTests */,
+				33DA5D182133D10300F895D4 /* kancolleViewerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33DA5CF42133D10000F895D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33DA5D062133D10200F895D4 /* LaunchScreen.storyboard in Resources */,
+				33DA5D032133D10200F895D4 /* Assets.xcassets in Resources */,
+				33DA5D012133D10000F895D4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33DA5D0C2133D10300F895D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33DA5D172133D10300F895D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33DA5CF22133D10000F895D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33DA5CFE2133D10000F895D4 /* ViewController.m in Sources */,
+				33DA5D092133D10200F895D4 /* main.m in Sources */,
+				33DA5CFB2133D10000F895D4 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33DA5D0A2133D10300F895D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33DA5D132133D10300F895D4 /* kancolleViewerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33DA5D152133D10300F895D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33DA5D1E2133D10300F895D4 /* kancolleViewerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		33DA5D102133D10300F895D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33DA5CF52133D10000F895D4 /* kancolleViewer */;
+			targetProxy = 33DA5D0F2133D10300F895D4 /* PBXContainerItemProxy */;
+		};
+		33DA5D1B2133D10300F895D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33DA5CF52133D10000F895D4 /* kancolleViewer */;
+			targetProxy = 33DA5D1A2133D10300F895D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		33DA5CFF2133D10000F895D4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33DA5D002133D10000F895D4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		33DA5D042133D10200F895D4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33DA5D052133D10200F895D4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		33DA5D202133D10300F895D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		33DA5D212133D10300F895D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33DA5D232133D10300F895D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = kancolleViewer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourforum.kancolleViewer.kancolleViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		33DA5D242133D10300F895D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = kancolleViewer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourforum.kancolleViewer.kancolleViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		33DA5D262133D10300F895D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = kancolleViewerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourforum.kancolleViewer.kancolleViewerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kancolleViewer.app/kancolleViewer";
+			};
+			name = Debug;
+		};
+		33DA5D272133D10300F895D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = kancolleViewerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourforum.kancolleViewer.kancolleViewerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kancolleViewer.app/kancolleViewer";
+			};
+			name = Release;
+		};
+		33DA5D292133D10300F895D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = kancolleViewerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourforum.kancolleViewer.kancolleViewerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = kancolleViewer;
+			};
+			name = Debug;
+		};
+		33DA5D2A2133D10300F895D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = kancolleViewerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourforum.kancolleViewer.kancolleViewerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = kancolleViewer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33DA5CF12133D10000F895D4 /* Build configuration list for PBXProject "kancolleViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33DA5D202133D10300F895D4 /* Debug */,
+				33DA5D212133D10300F895D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33DA5D222133D10300F895D4 /* Build configuration list for PBXNativeTarget "kancolleViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33DA5D232133D10300F895D4 /* Debug */,
+				33DA5D242133D10300F895D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33DA5D252133D10300F895D4 /* Build configuration list for PBXNativeTarget "kancolleViewerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33DA5D262133D10300F895D4 /* Debug */,
+				33DA5D272133D10300F895D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33DA5D282133D10300F895D4 /* Build configuration list for PBXNativeTarget "kancolleViewerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33DA5D292133D10300F895D4 /* Debug */,
+				33DA5D2A2133D10300F895D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 33DA5CEE2133D10000F895D4 /* Project object */;
+}
