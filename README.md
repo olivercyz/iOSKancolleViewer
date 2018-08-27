@@ -1,1 +1,1 @@
-# iOSKancolleViewer
+deprecated
