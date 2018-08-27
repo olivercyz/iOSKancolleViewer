@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  KCFontManager.h
 //  kancolleViewer
 //
 //  Created by cuiyzh on 2018/8/27.
@@ -8,9 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface KCFontManager : NSObject
 
-- (void)logout;
++ (UIFont *)rFontOfSize:(CGFloat)size;
 
 @end
-

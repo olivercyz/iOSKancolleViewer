@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  KCViewController.h
 //  kancolleViewer
 //
 //  Created by cuiyzh on 2018/8/27.
@@ -8,9 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
-- (void)logout;
+@interface KCViewController : UIViewController
 
 @end
-

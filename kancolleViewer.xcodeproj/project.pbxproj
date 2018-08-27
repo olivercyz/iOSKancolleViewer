@@ -15,6 +15,16 @@
 		33DA5D092133D10200F895D4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33DA5D082133D10200F895D4 /* main.m */; };
 		33DA5D132133D10300F895D4 /* kancolleViewerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33DA5D122133D10300F895D4 /* kancolleViewerTests.m */; };
 		33DA5D1E2133D10300F895D4 /* kancolleViewerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33DA5D1D2133D10300F895D4 /* kancolleViewerUITests.m */; };
+		33DA5D2D2133D35100F895D4 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33DA5D2C2133D35100F895D4 /* WebKit.framework */; };
+		33DA5D362133E9D700F895D4 /* KCApplicationSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 33DA5D352133E9D700F895D4 /* KCApplicationSettings.m */; };
+		33DA5D3C2133EB2C00F895D4 /* KCShipInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 33DA5D3B2133EB2C00F895D4 /* KCShipInfo.m */; };
+		33DA5D412133EED800F895D4 /* KCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33DA5D402133EED800F895D4 /* KCViewController.m */; };
+		33DA5D442133EEEA00F895D4 /* KCSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33DA5D432133EEEA00F895D4 /* KCSettingsViewController.m */; };
+		33DA5D472133EF0B00F895D4 /* KCSettingsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 33DA5D462133EF0B00F895D4 /* KCSettingsCell.m */; };
+		33DA5D4A2133EFEF00F895D4 /* KCSettingsItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 33DA5D492133EFEF00F895D4 /* KCSettingsItem.m */; };
+		33DA5D4D2133F0F900F895D4 /* KCFontManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 33DA5D4C2133F0F900F895D4 /* KCFontManager.m */; };
+		33DA5D4F2133F4B100F895D4 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 33DA5D4E2133F4B100F895D4 /* Localizable.strings */; };
+		CD4D4A1C1E30791A836EED92 /* Pods_kancolleViewer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D7FC29684299074F028C186 /* Pods_kancolleViewer.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +61,28 @@
 		33DA5D192133D10300F895D4 /* kancolleViewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kancolleViewerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		33DA5D1D2133D10300F895D4 /* kancolleViewerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kancolleViewerUITests.m; sourceTree = "<group>"; };
 		33DA5D1F2133D10300F895D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33DA5D2C2133D35100F895D4 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		33DA5D2E2133DFE600F895D4 /* KCResponseHandlerProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KCResponseHandlerProtocol.h; sourceTree = "<group>"; };
+		33DA5D322133E93100F895D4 /* KCCommonDefs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KCCommonDefs.h; sourceTree = "<group>"; };
+		33DA5D332133E97F00F895D4 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		33DA5D342133E9D700F895D4 /* KCApplicationSettings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KCApplicationSettings.h; sourceTree = "<group>"; };
+		33DA5D352133E9D700F895D4 /* KCApplicationSettings.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KCApplicationSettings.m; sourceTree = "<group>"; };
+		33DA5D3A2133EB2C00F895D4 /* KCShipInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KCShipInfo.h; sourceTree = "<group>"; };
+		33DA5D3B2133EB2C00F895D4 /* KCShipInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KCShipInfo.m; sourceTree = "<group>"; };
+		33DA5D3F2133EED800F895D4 /* KCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KCViewController.h; sourceTree = "<group>"; };
+		33DA5D402133EED800F895D4 /* KCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KCViewController.m; sourceTree = "<group>"; };
+		33DA5D422133EEEA00F895D4 /* KCSettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KCSettingsViewController.h; sourceTree = "<group>"; };
+		33DA5D432133EEEA00F895D4 /* KCSettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KCSettingsViewController.m; sourceTree = "<group>"; };
+		33DA5D452133EF0B00F895D4 /* KCSettingsCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KCSettingsCell.h; sourceTree = "<group>"; };
+		33DA5D462133EF0B00F895D4 /* KCSettingsCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KCSettingsCell.m; sourceTree = "<group>"; };
+		33DA5D482133EFEF00F895D4 /* KCSettingsItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KCSettingsItem.h; sourceTree = "<group>"; };
+		33DA5D492133EFEF00F895D4 /* KCSettingsItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KCSettingsItem.m; sourceTree = "<group>"; };
+		33DA5D4B2133F0F900F895D4 /* KCFontManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KCFontManager.h; sourceTree = "<group>"; };
+		33DA5D4C2133F0F900F895D4 /* KCFontManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KCFontManager.m; sourceTree = "<group>"; };
+		33DA5D4E2133F4B100F895D4 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		732CE2EFE2CDE01A0A75F83B /* Pods-kancolleViewer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kancolleViewer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-kancolleViewer/Pods-kancolleViewer.debug.xcconfig"; sourceTree = "<group>"; };
+		9A56292B3C41B398FD6370C9 /* Pods-kancolleViewer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kancolleViewer.release.xcconfig"; path = "Pods/Target Support Files/Pods-kancolleViewer/Pods-kancolleViewer.release.xcconfig"; sourceTree = "<group>"; };
+		9D7FC29684299074F028C186 /* Pods_kancolleViewer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kancolleViewer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +90,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33DA5D2D2133D35100F895D4 /* WebKit.framework in Frameworks */,
+				CD4D4A1C1E30791A836EED92 /* Pods_kancolleViewer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +119,8 @@
 				33DA5D112133D10300F895D4 /* kancolleViewerTests */,
 				33DA5D1C2133D10300F895D4 /* kancolleViewerUITests */,
 				33DA5CF72133D10000F895D4 /* Products */,
+				33DA5D2B2133D35000F895D4 /* Frameworks */,
+				E413BAD6A2ED45CAF854F654 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +137,11 @@
 		33DA5CF82133D10000F895D4 /* kancolleViewer */ = {
 			isa = PBXGroup;
 			children = (
+				33DA5D512133FCA900F895D4 /* InfoView */,
+				33DA5D502133F73100F895D4 /* Commander */,
+				33DA5D3E2133EECB00F895D4 /* BaseClass */,
+				33DA5D3D2133EE4400F895D4 /* Settings */,
+				33DA5D382133EB0600F895D4 /* Ship */,
 				33DA5CF92133D10000F895D4 /* AppDelegate.h */,
 				33DA5CFA2133D10000F895D4 /* AppDelegate.m */,
 				33DA5CFC2133D10000F895D4 /* ViewController.h */,
@@ -110,6 +151,12 @@
 				33DA5D042133D10200F895D4 /* LaunchScreen.storyboard */,
 				33DA5D072133D10200F895D4 /* Info.plist */,
 				33DA5D082133D10200F895D4 /* main.m */,
+				33DA5D2E2133DFE600F895D4 /* KCResponseHandlerProtocol.h */,
+				33DA5D322133E93100F895D4 /* KCCommonDefs.h */,
+				33DA5D332133E97F00F895D4 /* PrefixHeader.pch */,
+				33DA5D342133E9D700F895D4 /* KCApplicationSettings.h */,
+				33DA5D352133E9D700F895D4 /* KCApplicationSettings.m */,
+				33DA5D4E2133F4B100F895D4 /* Localizable.strings */,
 			);
 			path = kancolleViewer;
 			sourceTree = "<group>";
@@ -132,6 +179,71 @@
 			path = kancolleViewerUITests;
 			sourceTree = "<group>";
 		};
+		33DA5D2B2133D35000F895D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				33DA5D2C2133D35100F895D4 /* WebKit.framework */,
+				9D7FC29684299074F028C186 /* Pods_kancolleViewer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		33DA5D382133EB0600F895D4 /* Ship */ = {
+			isa = PBXGroup;
+			children = (
+				33DA5D3A2133EB2C00F895D4 /* KCShipInfo.h */,
+				33DA5D3B2133EB2C00F895D4 /* KCShipInfo.m */,
+			);
+			path = Ship;
+			sourceTree = "<group>";
+		};
+		33DA5D3D2133EE4400F895D4 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				33DA5D422133EEEA00F895D4 /* KCSettingsViewController.h */,
+				33DA5D432133EEEA00F895D4 /* KCSettingsViewController.m */,
+				33DA5D452133EF0B00F895D4 /* KCSettingsCell.h */,
+				33DA5D462133EF0B00F895D4 /* KCSettingsCell.m */,
+				33DA5D482133EFEF00F895D4 /* KCSettingsItem.h */,
+				33DA5D492133EFEF00F895D4 /* KCSettingsItem.m */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		33DA5D3E2133EECB00F895D4 /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				33DA5D3F2133EED800F895D4 /* KCViewController.h */,
+				33DA5D402133EED800F895D4 /* KCViewController.m */,
+				33DA5D4B2133F0F900F895D4 /* KCFontManager.h */,
+				33DA5D4C2133F0F900F895D4 /* KCFontManager.m */,
+			);
+			path = BaseClass;
+			sourceTree = "<group>";
+		};
+		33DA5D502133F73100F895D4 /* Commander */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Commander;
+			sourceTree = "<group>";
+		};
+		33DA5D512133FCA900F895D4 /* InfoView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = InfoView;
+			sourceTree = "<group>";
+		};
+		E413BAD6A2ED45CAF854F654 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				732CE2EFE2CDE01A0A75F83B /* Pods-kancolleViewer.debug.xcconfig */,
+				9A56292B3C41B398FD6370C9 /* Pods-kancolleViewer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +251,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 33DA5D222133D10300F895D4 /* Build configuration list for PBXNativeTarget "kancolleViewer" */;
 			buildPhases = (
+				F2EEBB6F2C7A255EEA3E5558 /* [CP] Check Pods Manifest.lock */,
 				33DA5CF22133D10000F895D4 /* Sources */,
 				33DA5CF32133D10000F895D4 /* Frameworks */,
 				33DA5CF42133D10000F895D4 /* Resources */,
+				44FD908762055E00E5E5336C /* [CP] Embed Pods Frameworks */,
+				669EFA79FE24EE4BDA0C528A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -236,6 +351,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				33DA5D062133D10200F895D4 /* LaunchScreen.storyboard in Resources */,
+				33DA5D4F2133F4B100F895D4 /* Localizable.strings in Resources */,
 				33DA5D032133D10200F895D4 /* Assets.xcassets in Resources */,
 				33DA5D012133D10000F895D4 /* Main.storyboard in Resources */,
 			);
@@ -257,13 +373,76 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		44FD908762055E00E5E5336C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-kancolleViewer/Pods-kancolleViewer-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/YYModel/YYModel.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYModel.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kancolleViewer/Pods-kancolleViewer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		669EFA79FE24EE4BDA0C528A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kancolleViewer/Pods-kancolleViewer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2EEBB6F2C7A255EEA3E5558 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-kancolleViewer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		33DA5CF22133D10000F895D4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				33DA5CFE2133D10000F895D4 /* ViewController.m in Sources */,
+				33DA5D3C2133EB2C00F895D4 /* KCShipInfo.m in Sources */,
+				33DA5D362133E9D700F895D4 /* KCApplicationSettings.m in Sources */,
+				33DA5D472133EF0B00F895D4 /* KCSettingsCell.m in Sources */,
+				33DA5D442133EEEA00F895D4 /* KCSettingsViewController.m in Sources */,
 				33DA5D092133D10200F895D4 /* main.m in Sources */,
+				33DA5D4D2133F0F900F895D4 /* KCFontManager.m in Sources */,
+				33DA5D4A2133EFEF00F895D4 /* KCSettingsItem.m in Sources */,
+				33DA5D412133EED800F895D4 /* KCViewController.m in Sources */,
 				33DA5CFB2133D10000F895D4 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,10 +610,14 @@
 		};
 		33DA5D232133D10300F895D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 732CE2EFE2CDE01A0A75F83B /* Pods-kancolleViewer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WX82CA427R;
+				GCC_PREFIX_HEADER = kancolleViewer/PrefixHeader.pch;
 				INFOPLIST_FILE = kancolleViewer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -447,10 +630,14 @@
 		};
 		33DA5D242133D10300F895D4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A56292B3C41B398FD6370C9 /* Pods-kancolleViewer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WX82CA427R;
+				GCC_PREFIX_HEADER = kancolleViewer/PrefixHeader.pch;
 				INFOPLIST_FILE = kancolleViewer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
